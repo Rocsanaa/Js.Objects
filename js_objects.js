@@ -22,6 +22,11 @@ function Person(firstName, lastName, birthdate){
 	}
 
 	this.getSign = function() {
+		if((month == 1 && <= 20) || (month == 12 && day >=22)){
+			return capricorn;
+		} else if ((month == 1 && day >== 21) || (month == 2 && day <= 18 )) {
+
+		}
 
 
 	}
